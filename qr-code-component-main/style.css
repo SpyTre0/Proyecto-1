@@ -1,0 +1,79 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1,
+p {
+  font-family: "Outfit", sans-serif;
+}
+
+h1 {
+  font-size: 22px;
+  line-height: 120%;
+  letter-spacing: 0px;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+p {
+  font-size: 15px;
+  color: hsl(228, 12%, 44%);
+  line-height: 140%;
+  letter-spacing: 0.2px;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+
+.tarjeta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  background-color: white;
+  max-width: 20rem;
+  margin: auto;
+  border-radius: 15px;
+}
+
+.tarjeta__imagen {
+  width: 100%;
+  border-radius: 15px;
+  height: auto;
+}
+
+@media (max-width: 375px) {
+  .tarjeta {
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+  h1{
+    font-size: 18px;
+  }
+
+  p{
+    font-size: 14px;
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: fixed; /* Fija la posición */
+  bottom: 0; /* Coloca en la parte inferior */
+  width: 100%; /* Asegura que ocupe todo el ancho */
+  padding: 0.5rem 0; /* Espaciado opcional */
+}
